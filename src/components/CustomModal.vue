@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="rounded-lg p-10 flex sm:flex-col md:flex-col justify-center items-center gap-6">
+  <div class="rounded-lg p-10 flex sm:flex-col md:flex-col justify- items-center gap-6">
     <slot></slot>
   </div>
 </template>

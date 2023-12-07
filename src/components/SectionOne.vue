@@ -33,12 +33,12 @@ const sectionlist = [
 <template>
     <div class="mt-5 mb-5">
         <div class="flex flex-col items-center justify-center">
-            <h3 class="text-3xl font-bold mb-2">{{ text }}</h3>
+            <h3 class="text-3xl sm:text-lg md:lg font-bold mb-2 flex items-center justify-center">{{ text }}</h3>
             <p class="text-lg font-semibold mb-3 w-5/12 flex items-center justify-center">This is how our products works</p>
         </div>
 
         <CustomModal>
-        <div v-for="item in sectionlist" :key="item.id" class="bg-white flex flex-col justify-center items-center mb-5 py-5 px-5 rounded-md">
+        <div v-for="item in sectionlist" :key="item.id" class="bg-white flex flex-col  items-center mb-5 py-5 px-5 rounded-md">
             <img :src="item.ImageUrl" alt="Section Image" class="w-24 object-cover rounded-full" />
             <h3 class="text-xl font-bold mt-3">{{ item.title }}</h3>
             <p class="text-base text-gray-600">{{ item.content }}</p>
