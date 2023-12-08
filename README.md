@@ -1,29 +1,15 @@
 # tukay
 
-This template should help get you started developing with Vue 3 in Vite.
+Tukay is a fintech platform, providing a fast and efficient way to fundraise.
 
-## Recommended IDE Setup
+## Live Url
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+ [Live Url](https://tukay-app-kohl.vercel.app).
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![Landing Page Ui](/tukay/public/tukay_ui.png)
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Tech Stacks
+- Vuejs
+- Javascript
+- Tailwind Css

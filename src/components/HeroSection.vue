@@ -6,7 +6,7 @@ import SettingsImage from '../../public/settings.png';
 <template>
   <div class="w-50 py-36 px-20">
     <div>
-      <h3 class="text-6xl font-semibold mb-2">Get your urgent 2k</h3>
+      <h3 class="text-6xl font-semibold mb-2 ">Get your urgent 2k</h3>
       <p class="text-lg font-semibold mb-3 w-5/12 sm:w-full md:w-full">No cash, No wahala get our application and deal with Sapa.</p>
     </div>
 
